@@ -1,4 +1,4 @@
-package com.fztkm.fore_act.ui.theme
+package com.fztkm.fore_act.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build

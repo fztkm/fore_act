@@ -1,4 +1,4 @@
-package com.fztkm.fore_act.ui.theme
+package com.fztkm.fore_act.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
