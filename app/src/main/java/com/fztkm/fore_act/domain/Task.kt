@@ -47,10 +47,21 @@ data class Task(
     val taskGroupId: Int,
     val title: String,
     val description: String,
-    val dueDate: String,
+    val dueDate: String? = null,
     val category: TaskCategory,
     val progress: TaskProgress,
     val status: TaskStatus,
-    val repeat: TaskRepeat,
-    val subtasks: List<Task>,
+    val repeat: TaskRepeat? = null,
+    val subtasks: List<Task>? = null,
+)
+
+val sample_task = Task(
+    id = 1,
+    taskGroupId = 1,
+    title = "Task 1",
+    description = "Description 1",
+    dueDate = "2024/12/24",
+    category = TaskCategory.TIME_BOUND,
+    progress = TaskProgress.ZERO,
+    status = TaskStatus.TODO,
 )

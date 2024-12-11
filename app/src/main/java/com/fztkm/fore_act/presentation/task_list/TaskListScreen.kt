@@ -5,17 +5,6 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 
-
-@Composable
-fun TaskCard(
-    title: String,
-    description: String,
-    dueDate: String,
-    priority: String
-){
-
-}
-
 @Composable
 fun TaskListScreen(
 
