@@ -15,7 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.fztkm.fore_act.domain.Task
-import com.fztkm.fore_act.domain.sample_task
+import com.fztkm.fore_act.domain.sampleTask
 import com.fztkm.fore_act.presentation.ui.theme.Fore_actTheme
 
 @Composable
@@ -49,6 +49,6 @@ fun TaskCard(
 @Preview(showBackground = true)
 fun PreviewTaskCard(){
     Fore_actTheme {
-        TaskCard(task = sample_task)
+        TaskCard(task = sampleTask)
     }
 }

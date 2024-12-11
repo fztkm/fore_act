@@ -55,7 +55,7 @@ data class Task(
     val subtasks: List<Task>? = null,
 )
 
-val sample_task = Task(
+val sampleTask = Task(
     id = 1,
     taskGroupId = 1,
     title = "Task 1",
